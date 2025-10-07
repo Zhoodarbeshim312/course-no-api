@@ -1,10 +1,10 @@
 import { FC } from "react";
-import Main from "./main/Main";
+import Hero from "./main/Hero";
 
 const MainPage: FC = () => {
   return (
     <>
-      <Main />
+      <Hero />
     </>
   );
 };
