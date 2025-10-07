@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { Main } from "next/document";
+import Main from "./main/Main";
 
 const MainPage: FC = () => {
   return (
