@@ -95,3 +95,101 @@
     }
   }
 }
+
+@media (max-width: 1200px) {
+  .Hero {
+    .content1 {
+      .img {
+        width: 350px;
+      }
+      .text {
+        h1 {
+          font-size: 38px;
+          line-height: 50px;
+        }
+      }
+    }
+    .content2 {
+      gap: 16px;
+      .card {
+        width: 260px;
+        height: 260px;
+        padding: 25px 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .Hero {
+    .content1 {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 24px;
+      .img {
+        width: 100%;
+        max-width: 350px;
+        margin: 0 auto;
+      }
+      .text {
+        h1 {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+    }
+    .content2 {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 20px;
+      .card {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        height: auto;
+        padding: 20px 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .Hero {
+    padding: 20px 0;
+    .content1 {
+      .text {
+        gap: 20px;
+        h1 {
+          font-size: 22px;
+          line-height: 30px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 22px;
+        }
+        button {
+          font-size: 12px;
+          padding: 8px 10px;
+        }
+      }
+      .img {
+        width: 100%;
+        max-width: 220px;
+      }
+    }
+    .content2 {
+      gap: 12px;
+      .card {
+        width: 100%;
+        max-width: 100%;
+        padding: 12px 8px;
+        h5 {
+          font-size: 14px;
+        }
+        p {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}
