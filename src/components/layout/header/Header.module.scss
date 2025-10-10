@@ -15,6 +15,9 @@
       display: flex;
       align-items: center;
       gap: 40px;
+      @media (max-width: 835px) {
+        display: none;
+      }
       a {
         font-weight: 700;
         font-size: 14px;
